@@ -1,0 +1,24 @@
+@import url("_fonts.css");
+@import url("_bootstrap-grid.css");
+
+.card {
+	font-size: 20px;
+	text-align: center;
+	color: #313131;
+	background-color: #E1C4B1;
+}
+
+.card.nightMode {
+	background-color: #01024e;
+	color: #EEEEEE;
+}
+
+.divider {
+	border-top: 3px solid;
+}
+
+.single-term {
+	font-family: "Merriweather", arial;
+	font-weight: 700;
+	font-size: 50px;
+}

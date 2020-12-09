@@ -1,0 +1,76 @@
+@font-face {
+	font-weight: 900;
+    font-family: "Merriweather";
+    src: url("_Merriweather-Black.otf");
+}
+@font-face {
+	font-weight: 900;
+	font-style: italic;
+    font-family: "Merriweather";
+    src: url("_Merriweather-BlackItalic.otf");
+}
+@font-face {
+	font-weight: 700;
+    font-family: "Merriweather";
+    src: url("_Merriweather-Bold.otf");
+}
+@font-face {
+	font-weight: 700;
+	font-style: italic;
+    font-family: "Merriweather";
+    src: url("_Merriweather-BoldItalic.otf");
+}
+@font-face {
+	font-weight: 400;
+    font-family: "Merriweather";
+    src: url("_Merriweather-Regular.otf");
+}
+@font-face {
+	font-weight: 400;
+	font-style: italic;
+    font-family: "Merriweather";
+    src: url("_Merriweather-Italic.otf");
+}
+@font-face {
+	font-weight: 300;
+    font-family: "Merriweather";
+    src: url("_Merriweather-Light.otf");
+}
+@font-face {
+	font-weight: 300;
+	font-style: italic;
+    font-family: "Merriweather";
+    src: url("_Merriweather-LightItalic.otf");
+}
+
+
+@font-face {
+	font-weight: 900;
+    font-family: "Noto Sans KR";
+    src: url("_NotoSansKR-Black.otf");
+}
+@font-face {
+	font-weight: 700;
+    font-family: "Noto Sans KR";
+    src: url("_NotoSansKR-Bold.otf");
+}
+@font-face {
+	font-weight: 500;
+    font-family: "Noto Sans KR";
+    src: url("_NotoSansKR-Medium.otf");
+}
+@font-face {
+	font-weight: 400;
+    font-family: "Noto Sans KR";
+    src: url("_NotoSansKR-Regular.otf");
+}
+@font-face {
+	font-weight: 300;
+    font-family: "Noto Sans KR";
+    src: url("_NotoSansKR-Light.otf");
+}
+@font-face {
+	font-weight: 100;
+    font-family: "Noto Sans KR";
+    src: url("_NotoSansKR-Thin.otf");
+}
