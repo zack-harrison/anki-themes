@@ -1,5 +1,4 @@
 @import url("_fonts.css");
-@import url("_bootstrap-grid.css");
 
 .card {
 	font-size: 20px;
@@ -14,6 +13,8 @@
 }
 
 .divider {
+	margin-top: 1em;
+	margin-bottom: 1em;
 	border-top: 3px solid;
 }
 
@@ -21,4 +22,36 @@
 	font-family: "Merriweather", arial;
 	font-weight: 700;
 	font-size: 50px;
+}
+
+.word {
+	font-family: "Merriweather", arial;
+	font-size: 40px;
+	font-weight: 600;
+	color: #E43300;
+}
+
+.nightMode .word {
+	color: #acdbdf;
+}
+
+.word-translation {
+	font-family: "Noto Sans KR", arial;
+	font-size: 27px;
+	font-weight: 700;
+	color: #007B6C;
+}
+
+.nightMode .word-translation {
+	color: #f3bad6;
+}
+
+.example-sentence {
+	font-weight: bold;
+	text-align: left;
+}
+
+.example-sentence-translation {
+	font-weight: light;
+	text-align: left;
 }
