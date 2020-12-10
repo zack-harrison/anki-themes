@@ -4,14 +4,25 @@
 
 <div class="font-size-25px font-weight-600 font-family-notosanskr text-color-secondary">{{English}}</div>
 
-<div class="divider"></div>
+{{#Sentence Russian Imperfective}}
+	<div class="divider"></div>
+{{/Sentence Russian Imperfective}}
+{{^Sentence Russian Imperfective}}
+	{{#Sentence Russian Perfective}}
+		<div class="divider"></div>
+	{{/Sentence Russian Perfective}}
+{{/Sentence Russian Imperfective}}
 
-<div class="text-align-left font-weight-700 text-color-tertiary">Imperfective</div>
-<div class="text-align-left font-weight-600">{{Sentence Russian Imperfective}}</div>
-<div class="text-align-left text-color-tertiary">{{Sentence Russian Imperfective Translation}}</div>
+{{#Sentence Russian Imperfective}}
+	<div class="text-align-left font-weight-700 text-color-tertiary">Imperfective</div>
+	<div class="text-align-left font-weight-600">{{Sentence Russian Imperfective}}</div>
+	<div class="text-align-left text-color-tertiary">{{Sentence Russian Imperfective Translation}}</div>
 
-<div class="space"></div>
+	<div class="space"></div>
+{{/Sentence Russian Imperfective}}
 
-<div class="text-align-left font-weight-700 text-color-tertiary">Perfective</div>
-<div class="text-align-left font-weight-600">{{Sentence Russian Perfective}}</div>
-<div class="text-align-left text-color-tertiary">{{Sentence Russian Perfective Translation}}</div>
+{{#Sentence Russian Perfective}}
+	<div class="text-align-left font-weight-700 text-color-tertiary">Perfective</div>
+	<div class="text-align-left font-weight-600">{{Sentence Russian Perfective}}</div>
+	<div class="text-align-left text-color-tertiary">{{Sentence Russian Perfective Translation}}</div>
+{{/Sentence Russian Perfective}}

@@ -4,7 +4,10 @@
 
 <div class="font-size-25px font-weight-600 font-family-notosanskr text-color-secondary">{{English}}</div>
 
-<div class="divider"></div>
-
-<div class="text-align-left font-weight-600">{{Sentence Foreign}}</div>
-<div class="text-align-left text-color-tertiary">{{Sentence English}}</div>
+{{#Sentence Foreign}}
+	<div class="divider"></div>
+	<div class="text-align-left font-weight-600">{{Sentence Foreign}}</div>
+{{/Sentence Foreign}}
+{{#Sentence English}}
+	<div class="text-align-left text-color-tertiary">{{Sentence English}}</div>
+{{/Sentence English}}
