@@ -19,6 +19,10 @@
 	justify-content: space-evenly;
 }
 
+.mobile .row {
+	flex-direction: column;
+}
+
 .divider {
 	border-top: 3px solid;
 }
