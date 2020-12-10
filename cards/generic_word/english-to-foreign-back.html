@@ -1,13 +1,26 @@
-<div class="font-weight-600 font-size-40px text-color-primary font-family-merriweather">{{Foreign}}</div>
+{{#Sentence Foreign}}
+	<div class="font-weight-600 font-size-40px text-color-primary font-family-merriweather">{{Foreign}}</div>
+{{/Sentence Foreign}}
+
+{{^Sentence Foreign}}
+	<div class="font-size-50px font-weight-500 font-family-merriweather">{{Foreign}}</div>
+{{/Sentence Foreign}}
 
 <div class="divider"></div>
 
-<div class="font-size-25px font-weight-600 font-family-notosanskr text-color-secondary">{{English}}</div>
-
 {{#Sentence Foreign}}
-	<div class="divider"></div>
-	<div class="text-align-left font-weight-600">{{Sentence Foreign}}</div>
+	<div class="font-size-25px font-weight-600 font-family-notosanskr text-color-secondary">{{English}}</div>
+
+	{{#Sentence Foreign}}
+		<div class="divider"></div>
+		<div class="text-align-left font-weight-600">{{Sentence Foreign}}</div>
+	{{/Sentence Foreign}}
+	{{#Sentence English}}
+		<div class="text-align-left text-color-tertiary">{{Sentence English}}</div>
+	{{/Sentence English}}
+
 {{/Sentence Foreign}}
-{{#Sentence English}}
-	<div class="text-align-left text-color-tertiary">{{Sentence English}}</div>
-{{/Sentence English}}
+
+{{^Sentence Foreign}}
+	<div class="font-size-50px font-weight-500 font-family-merriweather">{{English}}</div>
+{{/Sentence Foreign}}
